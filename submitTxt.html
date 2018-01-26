@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>会中H5【贺利氏2018年会】</title>
+	<script src="js/viewport.js"></script>
+	<link rel="stylesheet" href="css/jquery.fullpage.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<!-- loading -->
+	<div id="loading" class="submitLoading">
+		<div class="loader-inner">
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<div class="fullpageNo">
+		<!-- 公共部分 -->
+		<div class="index-contain">
+			<div class="base-icon base-top-icon">
+				<img src="images/base/base_top_icon.png" alt="">
+			</div>
+			<div class="base-icon base-bottom-icon">
+				<img src="images/base/base_bottom_icon.png" alt="">
+			</div>
+			<!-- logo部分 -->
+			<div class="logoIcon">
+				<img src="images/base/logoIcon.png" alt="">
+			</div>
+
+			<!-- 弹层部分 -->
+			<div class="jumpblack">
+				<div class="errorBox">
+					<span class="errorIcon">
+						<img src="images/base/errorIcon.png" class="iserror" alt="">
+						<img src="images/base/successIcon.png" class="issuccess" alt="">
+					</span>
+					<p class="errorText">
+						您输入的信息有误<br/>报名失败
+					</p>
+					<span monitor="关闭提示,点击" class="closeError">
+						<img src="images/base/closeIcon.png" alt="">
+					</span>
+				</div>
+			</div>
+		</div>
+		<!-- 去往参与页面 -->
+		<div class="join-box">
+			<img src="images/index/joinbackjground.jpg" alt="">
+			<!-- 星星闪烁 -->
+			<div class="star-list">
+				<span class="star-icon1"></span>
+				<span class="star-icon2"></span>
+				<span class="star-icon3"></span>
+				<span class="star-icon4"></span>
+				<span class="star-icon5"></span>
+			</div>
+			<!-- 文字区域 -->
+			<div class="join-textBox submitTxt">
+				<!-- 灯笼摇摆 -->
+				<div class="join-lantern">
+					<img src="images/base/lanternIcon.png" alt="">
+				</div>
+				<!-- 表单部分 -->
+				<div class="inputBox">
+					<h2 class="inputName">请输入您的姓名</h2>
+					<input type="text" class="submitInput" id="name">
+				</div>
+				<div class="inputBox">
+					<h2 class="inputName">请输入身份证后六位</h2>
+					<input type="text" class="submitInput" id="number">
+				</div>
+			</div>
+			<!-- 立即参与按钮 -->
+			<div monitor="确认提交,点击" class="submit-join" id="submit">
+				确认提交
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.1.11.3.js"></script>
+	<script src="js/jquery.fullpage.min.js"></script>
+	<script src="js/submittxt.js"></script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js','openid':'{{$gaopenid}}'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-GTM-KRHXZ6N');</script>
+	<!-- End Google Tag Manager -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRHXZ6N"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+</body>
+</html>
